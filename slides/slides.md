@@ -1,3 +1,10 @@
+---
+title: Database Systems
+# theme: dark
+data-separator-notes: '^Note:'
+center: false
+
+---
 # Database Systems
 ### Mathis Neunzig
 
@@ -21,7 +28,7 @@
 ## About me: Education
 
 * 2020-2023: B. Sc. Wirtschaftsinformatik - Software Engineering @DHBW Mannheim
-* 2023-2025: M. Sc. Data Science @FernUniversität Hagen
+* 2023-2026: M. Sc. Data Science @FernUniversität Hagen
 
 ----
 ## About us: My friends introduction round
@@ -35,11 +42,11 @@
 ----
 ## About us: Mathis
 
-* Cat (definately!!!)
+* Cat 
 * Libra (October)
 * Ravenclaw
 * Yellow
-* Cha Cha Cha by Käärijä
+* Fortnight by Taylor Swift feat. Post Malone
 
 ----
 ## About us: Your turn!
@@ -88,6 +95,7 @@
 ## Part 1
 * Written exam
 * 75% of points
+* At the end of the 3rd semester
 * For "spoilers" see GitHub
 * Every topic marked by (!) will not be covered in the exam
 
@@ -95,49 +103,169 @@
 ## Part 2
 * Assignment sheets
 * 25% of points
-* Throughout the semester
-* You will receive a Jupiter notebook with some assignments on them. You need to solve those and hand them in again.
-* Submissin will take place via Moodle
+* Throughout the 3rd semester
+* Online platform is currently under development
+* Topics: Database queries and working with data
+
+---
+# Literature
+
+----
+## Information about used literature
+* You don't have to buy and books
+* You don't need them to pass the exam
+* Only for personal interest
+
+----
+* A. Kemper, A. Eickler: "Datenbanksysteme - Eine Einführung", Oldenbourg Verlag, 2015
+* A. Kemper, A. Eickler: "Datenbanksysteme - Eine Einführung", Oldenbourg Verlag, 2015
+
+---
+<div align="center" width="90%">
+<img src="img/db_excel_meme.jpg" width=50% /><!-- .element style="border: 0px; box-shadow: 0 0 0 0" -->
+</div>
 
 ---
 # Chapter 1
 ### Database system
 
 ----
-## Database system
-* Database system contains of 2 parts
-    * Database with stored data
-    * Database management system
+<div align="center" width="90%">
+<img src="img/mosbach.jpeg" width=80% /><!-- .element style="border: 0px; box-shadow: 0 0 0 0" -->
+</div>
 
 ----
-## Database (Data storage)
-* Storage of electronic data
+<div align="center" width="90%">
+<img src="img/list_of_excel_files.png" width=80% /><!-- .element style="border: 0px; box-shadow: 0 0 0 0" -->
+</div>
+
+----
+## Problem
+* Some files belong to different teams
+    * Accounting
+    * HR
+    * Customer Relations
+* The supermarket wants to launch an app for the supermarket
+
+----
+### What can go wrong?
+
+----
+### Solution:
+### Database System!
+
+----
+## General terms
+* Data: Raw & unprocessed facts
+* Information: Processed data
+* Metadata: Information about data
+
+----
+## Database system
+Database system contains of 2 parts:
+* Database with stored data
+* Database management system (DBMS)
+
+----
+## Database
+* Storage of electronic, related data
 * Store data...
     * efficiently
     * without inconsistent data
     * possibly permanently
 
 ----
-## Database management system
-* Software for interacting with data
-* Organizes query and save processes
-* Offers a query language (e.g. SQL)
+## DBMS
+* Software(-collection)
+* Enables users to create and maintain databases
+* Commonly referred to as just "database"
 
 ----
-Bild: Unorganisierte Datenstruktur
+## Functions of a DBMS
+* Define data types, structures and constraints
+* Storing data on the database
+* Retrieve (query) the database
+* Update already existing data in the database
 
 ----
-Bild: Organisierte Datenstruktur
+## Functions of a DBMS
+* Enable multiple users to work with the same database
+* Protect data from malicious software
+* Protect data from discuptions
 
 ----
-Bild: Aufbau DBMS
+<div align="center" width="90%">
+<img src="img/list_of_excel_files.png" width=80% /><!-- .element style="border: 0px; box-shadow: 0 0 0 0" -->
+</div>
+
+----
+<div align="center" width="90%">
+<img src="img/dbms1.png" width=80% /><!-- .element style="border: 0px; box-shadow: 0 0 0 0" -->
+</div>
+
+----
+<div align="center" width="90%">
+<img src="img/dbms2.png" width=80% /><!-- .element style="border: 0px; box-shadow: 0 0 0 0" -->
+</div>
+
+----
+<div align="center" width="90%">
+<img src="img/dbms3.png" width=80% /><!-- .element style="border: 0px; box-shadow: 0 0 0 0" -->
+</div>
+
+----
+<div align="center" width="90%">
+<img src="img/dbms4.png" width=80% /><!-- .element style="border: 0px; box-shadow: 0 0 0 0" -->
+</div>
+
+----
+## DBMS
+* Many different DBMS
+* Different specialities
+* Different query languages
+* Examples: MySQL or MongoDB
+
+----
+<div align="center" width="70%">
+<img src="img/mysql.svg" width=50% /><!-- .element style="border: 0px; box-shadow: 0 0 0 0" -->
+</div>
+
+----
+<div align="center" width="70%">
+<img src="img/mongodb.png" width=50% /><!-- .element style="border: 0px; box-shadow: 0 0 0 0" -->
+</div>
 
 ---
-# Chapter 3
+# Chapter 2
 ### Data models
 
 ----
-## Data models
+## Relational
+
+----
+## Document-based
+
+----
+## Graph-based
+
+----
+## Key-value
+
+----
+## Hierarchical (!)
+
+----
+## Network-like (!)
+
+----
+## Object-oriented (!)
+
+---
+# Chapter 3
+### Relational databases
+
+----
+## Relational databases
 
 ---
 # Chapter 4
@@ -155,48 +283,41 @@ Bild: Aufbau DBMS
 
 ---
 # Chapter 5
-### Relational databases
+### Relational algebra
 
 ----
-## Relational databases
+## Relational algebra
+
+---
+# Exercise
+### Relational algebra
+
+----
+## Relational algebra
 
 ---
 # Chapter 6
-### Relational algebra
+### Normal forms
 
 ----
-## Relational algebra
+## Normal forms
 
 ---
 # Exercise
-### Relational algebra
+### Normal forms
 
 ----
-## Relational algebra
+## Normal forms
 
 ---
 # Chapter 7
-### Normal forms
-
-----
-## Normal forms
-
----
-# Exercise
-### Normal forms
-
-----
-## Normal forms
-
----
-# Chapter 8
 ### SQL Introduction
 
 ----
 ## SQL Introduction
 
 ---
-# Chapter 9
+# Chapter 8
 ### SQL Select
 
 ----
@@ -210,28 +331,28 @@ Bild: Aufbau DBMS
 ## SQL 
 
 ---
-# Chapter 10
+# Chapter 9
 ### SQL Joins
 
 ----
 ## SQL Joins
 
 ---
-# Chapter 11
+# Chapter 10
 ### SQL Insert
 
 ----
 ## SQL Insert
 
 ---
-# Chapter 12
+# Chapter 11
 ### SQL Update
 
 ----
 ## SQL Update
 
 ---
-# Chapter 13
+# Chapter 12
 ### SQL Delete
 
 ----
@@ -245,14 +366,14 @@ Bild: Aufbau DBMS
 ## SQL 
 
 ---
-# Chapter 14
+# Chapter 13
 ### SQL Misc
 
 ----
 ## SQL Misc
 
 ---
-# Chapter 15
+# Chapter 14
 ### ABAP Introduction
 
 ----
@@ -266,14 +387,14 @@ Bild: Aufbau DBMS
 ## ABAP 
 
 ---
-# Chapter 16
+# Chapter 15
 ### ABAP SQL
 
 ----
 ## ABAP SQL
 
 ---
-# Chapter 17
+# Chapter 16
 ### ABAP RAP & EML
 
 ----
@@ -287,14 +408,14 @@ Bild: Aufbau DBMS
 ## ABAP 
 
 ---
-# Chapter 18
+# Chapter 17
 ### Modern Database Architectures
 
 ----
 ## Modern Database Architectures
 
 ---
-# Chapter 19
+# Chapter 18
 ### CAP Theorem
 
 ----
