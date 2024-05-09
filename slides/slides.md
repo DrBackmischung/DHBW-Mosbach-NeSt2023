@@ -63,6 +63,7 @@ center: false
 ----
 ## Databases
 * Introduction to Databases
+* History of databases
 * Data models
 * Database Management Systems
 * ER-Diagrams
@@ -94,18 +95,20 @@ center: false
 ----
 ## Part 1
 * Written exam
-* 75% of points
-* At the end of the 3rd semester
+* 40% of points
+* At the end of the 4th semester
 * For "spoilers" see GitHub
 * Every topic marked by (!) will not be covered in the exam
 
 ----
 ## Part 2
-* Assignment sheets
-* 25% of points
-* Throughout the 3rd semester
-* Online platform is currently under development
-* Topics: Database queries and working with data
+* Assignment
+* 60% of points
+* Throughout the 3rd and 4th semester
+* Topics: 
+    * Database queries
+    * Data modeling
+    * SQL & ABAP
 
 ---
 # Literature
@@ -234,6 +237,28 @@ Database system contains of 2 parts:
 <div align="center" width="70%">
 <img src="img/mongodb.png" width=50% /><!-- .element style="border: 0px; box-shadow: 0 0 0 0" -->
 </div>
+
+----
+What disadvantages are there?
+
+----
+## Disadvantages
+* High initial investment
+* High concurrent costs
+* Too complicated for very small tasks
+
+----
+What advantages are there?
+
+----
+## Advantages
+* Less redundancies (if done correctly)
+* Restricting access
+* Procedures for (automatic) Backup & Recovery
+* (Different) User Interfaces
+* Automatic actions & functions
+* Efficient data processing
+* ...and many more!
 
 ---
 # Chapter 2
