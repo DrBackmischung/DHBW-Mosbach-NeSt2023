@@ -265,25 +265,113 @@ What advantages are there?
 ### Data models
 
 ----
+## "Paper based data model"
+<div align="center" width="90%">
+<img src="img/census_book.png" width=80% /><!-- .element style="border: 0px; box-shadow: 0 0 0 0" -->
+</div>
+
+----
+## "Paper based data model"
+<div align="center" width="90%">
+<img src="img/marriage_book.png" width=80% /><!-- .element style="border: 0px; box-shadow: 0 0 0 0" -->
+</div>
+
+----
+## "Paper based data model"
+<div align="center" width="90%">
+<img src="img/card_catalog.png" width=80% /><!-- .element style="border: 0px; box-shadow: 0 0 0 0" -->
+</div>
+
+----
+## Herman Hollerith (!)
+* Problem: 1890 Cencus
+* Info 1
+* Info 2
+* Info 3
+<div align="center" width="90%">
+<img src="img/herman_hollerith_1890_cencus.png" width=80% /><!-- .element style="border: 0px; box-shadow: 0 0 0 0" -->
+</div>
+
+----
+## File based data model
+<div align="center" width="90%">
+<img src="img/big_computer_1950_1970.png" width=80% /><!-- .element style="border: 0px; box-shadow: 0 0 0 0" -->
+</div>
+
+----
+## File based data model
+<div align="center" width="90%">
+<img src="img/list_of_excel_files.png" width=80% /><!-- .element style="border: 0px; box-shadow: 0 0 0 0" -->
+</div>
+
+----
+## Network-like
+
+----
+## Integrated Data Store (!)
+
+----
+## CODASYL (!)
+
+----
+## Hierarchical
+
+----
+## IBM Information Management System (!)
+
+----
 ## Relational
+
+----
+## Edgar Codd
+
+----
+## INGRES
+
+----
+## ORACLE
+
+----
+## The 1980s
+
+----
+## Object-oriented
+
+----
+## ObjectStore (!)
+
+----
+## Column-based
+
+----
+## HANA
+
+----
+## PARACCEL (!)
 
 ----
 ## Document-based
 
 ----
-## Graph-based
+## MongoDB
 
 ----
 ## Key-value
 
 ----
-## Hierarchical (!)
+## Redis
 
 ----
-## Network-like (!)
+## Graph-based
 
 ----
-## Object-oriented (!)
+## Neo4J
+
+----
+## Timeseries-based
+
+----
+## InfluxDB 
 
 ---
 # Chapter 3
@@ -291,6 +379,48 @@ What advantages are there?
 
 ----
 ## Relational databases
+
+----
+## Edgar Codd
+
+----
+## Edgar Codd's 12 Rules
+
+----
+## Rule 1
+
+----
+## Rule 2
+
+----
+## Rule 3
+
+----
+## Rule 4
+
+----
+## Rule 5
+
+----
+## Rule 6
+
+----
+## Rule 7
+
+----
+## Rule 8
+
+----
+## Rule 9
+
+----
+## Rule 10
+
+----
+## Rule 11
+
+----
+## Rule 12
 
 ---
 # Chapter 4
