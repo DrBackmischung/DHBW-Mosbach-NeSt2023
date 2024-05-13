@@ -422,12 +422,42 @@ What advantages are there?
 ----
 ## Rule 12
 
+----
+## Query Language SQL
+
+----
+## Relation
+
 ---
 # Chapter 4
 ### Database design
 
 ----
 ## Database design
+
+----
+## Entity-Relation-Model
+
+----
+## Syntax
+
+----
+## Syntax
+
+----
+## Example
+
+----
+## Example
+
+----
+## Transfer to Relational Model
+
+----
+## Rules
+
+----
+## Transfer to Logical Model
 
 ---
 # Exercise
